@@ -1,6 +1,7 @@
 public static void LinkedListTraversal(Node head){
-	while(head != null){
-	   System.out.print(head.data+" ");
-	   head = head.next;
+	Node curr = head;
+	while(curr != null){
+	   System.out.print(curr.data+" ");
+	   curr = curr.next;
 	}
 }
