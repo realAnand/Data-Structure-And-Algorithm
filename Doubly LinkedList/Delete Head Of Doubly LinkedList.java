@@ -1,5 +1,5 @@
 public static Node deleteHeadOfDoublyLinkedList(Node head){
-	if(head == null && head.next == null){
+	if(head == null || head.next == null){
 		return null;
 	}
 	head = head.next;
