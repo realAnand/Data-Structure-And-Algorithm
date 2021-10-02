@@ -1,5 +1,5 @@
 public static Node reverseDoublyLinkedlist(Node head){
-	if(head == null && head.next == null){
+	if(head == null || head.next == null){
 		return head;
 	}
 	Node prev = null;
