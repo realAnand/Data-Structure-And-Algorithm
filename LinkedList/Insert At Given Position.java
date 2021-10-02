@@ -1,5 +1,8 @@
 public static Node insertAtPosition(Node head, int pos, int data){
 	Node temp = new Node(data);
+	if(pos < 1){
+		return head;
+	}
 	if(pos == 1){
 		temp.next = head;
 		return temp;
