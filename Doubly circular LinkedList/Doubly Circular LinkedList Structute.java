@@ -1,5 +1,5 @@
 class Node{
-	ind data;
+	int data;
 	Node next;
 	Node prev;
 	Node(int data){
